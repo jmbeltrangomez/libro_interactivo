@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Laberinto | Computación y Robótica - 1º ESO / 2º ESO - LIBRO INTERACTIVO </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="D. Antonio Muñoz Pancorbo y D. José María Beltrán Gómez" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.6 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-24"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Computación y Robótica - 1º ESO / 2º ESO - LIBRO INTERACTIVO</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Libro Interactivo</a></li>
+   <li><a href="gua_didctica.html" class="no-ch">Guía didáctica</a></li>
+   <li><a href="ideas_previas.html" class="daddy">Ideas previas</a>
+   <ul class="other-section">
+      <li><a href="entorno_de_programacin.html" class="no-ch">Entorno de Programación</a></li>
+      <li><a href="conectar_makey_makey.html" class="no-ch">Conectar Makey Makey</a></li>
+      <li><a href="mi_primera_experiencia.html" class="no-ch">Mi primera experiencia</a></li>
+   </ul>
+   </li>
+   <li class="current-page-parent"><a href="tareas.html" class="current-page-parent daddy">Tareas</a>
+   <ul>
+      <li><a href="crear_una_espiral.html" class="no-ch">Crear una Espiral</a></li>
+      <li><a href="cambio_de_pantalla.html" class="no-ch">Cambio de pantalla</a></li>
+      <li><a href="calculadora.html" class="no-ch">Calculadora</a></li>
+      <li id="active"><a href="laberinto.html" class="active no-ch">Laberinto</a></li>
+      <li><a href="dibujo_interactivo.html" class="no-ch">Dibujo Interactivo</a></li>
+   </ul>
+   </li>
+   <li><a href="proyecto_final.html" class="no-ch">Proyecto Final</a></li>
+   <li><a href="referencias_bibliogrficas_si_las_hay.html" class="no-ch">Referencias bibliográficas (si las hay)</a></li>
+   <li><a href="autora_y_licencia.html" class="no-ch">Autoría y licencia</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="calculadora.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="dibujo_interactivo.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Laberinto</h1></header>
+<article class="iDevice_wrapper pblIdevice em_iDevice em_iDevice_activity" id="id26">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Tarea</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta26_122_2" class="block iDevice_content">
+<div class="pbl-task-description"><p>Realizar un juego de un laberinto que tiene que atravesar un sprite hasta llegar hasta otro. El sprite puede recoger una serie de elementos, que estarán distribuido por el laberinto, que sumaran puntos.</p>
+<p>Al tocar ese objeto final, debe aparecer una pantalla final.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id51">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Diseño</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta51_108_2" class="block iDevice_content">
+<div class="exe-text"><p>Primer paso, elegir los escenarios de los que se compone nuestro juego:</p>
+<p><strong>Laberinto</strong></p>
+<figure class="exe-figure exe-image position-center license-CC0" style="width: 801px;"><img src="tarea_4_01.jpg" alt="" width="801" height="491" />
+<figcaption class="figcaption"><span class="author">Fuente Propia</span> <span class="license"><span class="sep">(</span><a href="http://creativecommons.org/publicdomain/zero/1.0/deed.es" rel="license nofollow noopener" target="_blank" title="Creative Commons (CC0)">CC0</a><span class="sep">)</span></span></figcaption>
+</figure>
+<p><strong>You Win</strong></p>
+<figure class="exe-figure exe-image position-center license-CC0" style="width: 800px;"><img src="tarea_4_02.jpg" alt="" width="800" height="494" />
+<figcaption class="figcaption"><span class="author">Fuente Propia</span> <span class="license"><span class="sep">(</span><a href="http://creativecommons.org/publicdomain/zero/1.0/deed.es" rel="license nofollow noopener" target="_blank" title="Creative Commons (CC0)">CC0</a><span class="sep">)</span></span></figcaption>
+</figure>
+<p>Segundo paso elegimos los sprites que vamos a incorporar a nuestro juego:</p>
+<figure class="exe-figure exe-image position-center license-CC0" style="width: 319px;"><img src="tarea_4_03.jpg" alt="" width="319" height="254" />
+<figcaption class="figcaption"><span class="author">Fuente Propia</span> <span class="license"><span class="sep">(</span><a href="http://creativecommons.org/publicdomain/zero/1.0/deed.es" rel="license nofollow noopener" target="_blank" title="Creative Commons (CC0)">CC0</a><span class="sep">)</span></span></figcaption>
+</figure>
+<p>Tercer paso, realizar la disposición de los elementos por el escenario:</p>
+<figure class="exe-figure exe-image position-center license-CC0" style="width: 401px;"><img src="tarea_4_04.jpg" alt="" width="401" height="303" />
+<figcaption class="figcaption"><span class="author">Fuente Propia</span> <span class="license"><span class="sep">(</span><a href="http://creativecommons.org/publicdomain/zero/1.0/deed.es" rel="license nofollow noopener" target="_blank" title="Creative Commons (CC0)">CC0</a><span class="sep">)</span></span></figcaption>
+</figure>
+<p></p>
+<p></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id52">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Código</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta52_109_2" class="block iDevice_content">
+<div class="exe-text"><p>Definimos el código, primeramente, del gato de Scratch para que se pueda mover. Se utiliza los eventos de pulsar una tecla (en este caso las flechas). Cada uno de ellos, activa la dirección y movimiento del sprite hacia un lado u otro. Un ejemplo de código sería:</p>
+<figure class="exe-figure exe-image position-center license-CC0" style="width: 509px;"><img src="tarea_4_05.jpg" alt="" width="509" height="352" />
+<figcaption class="figcaption"><span class="author">Fuente Propia</span> <span class="license"><span class="sep">(</span><a href="http://creativecommons.org/publicdomain/zero/1.0/deed.es" rel="license nofollow noopener" target="_blank" title="Creative Commons (CC0)">CC0</a><span class="sep">)</span></span></figcaption>
+</figure>
+<p>Creamos la variable "Puntos":</p>
+<figure class="exe-figure exe-image position-center license-CC0" style="width: 294px;"><img src="tarea_4_06.jpg" alt="" width="294" height="387" />
+<figcaption class="figcaption"><span class="author">Fuente Propia</span> <span class="license"><span class="sep">(</span><a href="http://creativecommons.org/publicdomain/zero/1.0/deed.es" rel="license nofollow noopener" target="_blank" title="Creative Commons (CC0)">CC0</a><span class="sep">)</span></span></figcaption>
+</figure>
+<p>El siguiente paso, creamos el algoritmo de cada uno de los objetos que irá recogiendo el gato de Scratch para sumar la máxima cantidad de puntos. Las instrucciones son las que se muestran a continuación:</p>
+<figure class="exe-figure exe-image position-center license-CC0" style="width: 614px;"><img src="tarea_4_07.jpg" alt="" width="614" height="321" />
+<figcaption class="figcaption"><span class="author">Fuente Propia</span> <span class="license"><span class="sep">(</span><a href="http://creativecommons.org/publicdomain/zero/1.0/deed.es" rel="license nofollow noopener" target="_blank" title="Creative Commons (CC0)">CC0</a><span class="sep">)</span></span></figcaption>
+</figure>
+<p>Este bloque, pone la variable "Puntos" al valor 0 cuando hacemos clic en la bandera verde. Mostramos el icono (por si está escondido) y Por Siempre, hacemos que esté girando continuamente. Le asociamos un condicional en el que se indica que si está tocando al gato de Scratch, se esconda y además sume la variable un punto. Se pone en este orden, porque si no escondemos previamente a la suma de puntos, estaría sumando puntos continuamente hasta que se esconda, errando el resultado de los puntos obtenidos.</p>
+<p>Este bloque se arrastra al resto de sprites de naranjas. Todos estos objetos tienen el mismo código.</p>
+<p>Seguidamente, definimos el código del pez que tiene que alcanzar el gato. El algoritmo asociado a este objeto se muestra en la imagen. Al hacer clic en la bandera, lo mostramos y lo situamos en una posición determinada. Por siempre, si el pez detecta que el gato de Scratch lo está tocando se ejecuta la instrucción de cambio de escenario y envía un mensaje denominado "Esconder". Esta última instrucción, se asocia al evento "Recibir un mensaje" (en este caso "esconder") que se asocia a todos los elementos del programa, junto con la instrucción "esconder" para que no estén en pantalla cuando aparezca el escenario You Win.</p>
+<figure class="exe-figure exe-image position-center license-CC0" style="width: 607px;"><img src="tarea_4_08.jpg" alt="" width="607" height="292" />
+<figcaption class="figcaption"><span class="author">Fuente Propia</span> <span class="license"><span class="sep">(</span><a href="http://creativecommons.org/publicdomain/zero/1.0/deed.es" rel="license nofollow noopener" target="_blank" title="Creative Commons (CC0)">CC0</a><span class="sep">)</span></span></figcaption>
+</figure>
+<p>El bloque de "Esconder", que se pone en todos los objetos sería:</p>
+<figure class="exe-figure exe-image position-center license-CC0" style="width: 225px;"><img src="tarea_4_09.jpg" alt="" width="225" height="145" />
+<figcaption class="figcaption"><span class="author">Fuente Propia</span> <span class="license"><span class="sep">(</span><a href="http://creativecommons.org/publicdomain/zero/1.0/deed.es" rel="license nofollow noopener" target="_blank" title="Creative Commons (CC0)">CC0</a><span class="sep">)</span></span></figcaption>
+</figure>
+<p>Por último, el gato de scratch, se le configurará el código para que cuando detecte la pared del laberinto haga que vuelva a la posición inicial, junto a las instrucciones definidas para el movimiento y la del evento de recibir mensaje.</p>
+<figure class="exe-figure exe-image position-center license-CC0" style="width: 602px;"><img src="tarea_4_10.jpg" alt="" width="602" height="302" />
+<figcaption class="figcaption"><span class="author">Fuente Propia</span> <span class="license"><span class="sep">(</span><a href="http://creativecommons.org/publicdomain/zero/1.0/deed.es" rel="license nofollow noopener" target="_blank" title="Creative Commons (CC0)">CC0</a><span class="sep">)</span></span></figcaption>
+</figure>
+<p></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id53">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Ejemplo</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta53_110_2" class="block iDevice_content">
+<div class="exe-text"><p>El resultado final de nuestro proyecto debe quedar de la siguiente forma:</p>
+<figure class="exe-figure exe-image position-center license-CC0" style="width: 789px;"><img src="tarea_4_11.jpg" alt="" width="789" height="626" />
+<figcaption class="figcaption"><span class="author">Fuente Propia</span> <span class="license"><span class="sep">(</span><a href="http://creativecommons.org/publicdomain/zero/1.0/deed.es" rel="license nofollow noopener" target="_blank" title="Creative Commons (CC0)">CC0</a><span class="sep">)</span></span></figcaption>
+</figure>
+<p></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="calculadora.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="dibujo_interactivo.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_escolares_js.js"></script></body></html>
