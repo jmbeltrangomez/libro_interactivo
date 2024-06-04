@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Dibujo Interactivo | Computación y Robótica - 1º ESO / 2º ESO - LIBRO INTERACTIVO </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="D. Antonio Muñoz Pancorbo y D. José María Beltrán Gómez" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.6 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-25"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Computación y Robótica - 1º ESO / 2º ESO - LIBRO INTERACTIVO</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Libro Interactivo</a></li>
+   <li><a href="gua_didctica.html" class="no-ch">Guía didáctica</a></li>
+   <li><a href="ideas_previas.html" class="daddy">Ideas previas</a>
+   <ul class="other-section">
+      <li><a href="entorno_de_programacin.html" class="no-ch">Entorno de Programación</a></li>
+      <li><a href="conectar_makey_makey.html" class="no-ch">Conectar Makey Makey</a></li>
+      <li><a href="mi_primera_experiencia.html" class="no-ch">Mi primera experiencia</a></li>
+   </ul>
+   </li>
+   <li class="current-page-parent"><a href="tareas.html" class="current-page-parent daddy">Tareas</a>
+   <ul>
+      <li><a href="crear_una_espiral.html" class="no-ch">Crear una Espiral</a></li>
+      <li><a href="cambio_de_pantalla.html" class="no-ch">Cambio de pantalla</a></li>
+      <li><a href="calculadora.html" class="no-ch">Calculadora</a></li>
+      <li><a href="laberinto.html" class="no-ch">Laberinto</a></li>
+      <li id="active"><a href="dibujo_interactivo.html" class="active no-ch">Dibujo Interactivo</a></li>
+   </ul>
+   </li>
+   <li><a href="proyecto_final.html" class="no-ch">Proyecto Final</a></li>
+   <li><a href="referencias_bibliogrficas_si_las_hay.html" class="no-ch">Referencias bibliográficas (si las hay)</a></li>
+   <li><a href="autora_y_licencia.html" class="no-ch">Autoría y licencia</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="laberinto.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="proyecto_final.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Dibujo Interactivo</h1></header>
+<article class="iDevice_wrapper pblIdevice em_iDevice em_iDevice_activity" id="id30">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Tarea</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta30_110_2" class="block iDevice_content">
+<div class="pbl-task-description"><p><span>Crear un juego de tal forma que al pulsar diferentes teclas o al mover el sprite por la pantalla cuando detecte un determinado color se produzca un cambio de escenario, el personaje comunique algo en un "bocadillo" y se escuche esa información.</span><br /><span></span></p>
+<p><span>El juego debe de tener 8 eventos como mínimo.</span></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id54">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Diseño</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta54_111_2" class="block iDevice_content">
+<div class="exe-text"><p>Para llevar este proyecto se ha considerado que se va a utilizar un mapa de Andalucía.</p>
+<p>El primer paso consiste en definir los escenarios de los que se va a componer nuestra aplicación. En este caso, el mapa de Andalucía y sus provincias:</p>
+<figure class="exe-figure exe-image position-center" style="width: 419px;"><img src="tarea_5_01.jpg" alt="" width="419" height="250" />
+<figcaption class="figcaption"><span class="author">JuntadeAndalucia.es</span></figcaption>
+</figure>
+<p>El siguiente paso, sería duplicar el mapa, tantas veces como provincias existen. Cada escenario duplicado, se le pone el nombre de la provincia, tal y como se muestra:</p>
+<figure class="exe-figure exe-image position-center license-CC0" style="width: 800px;"><img src="tarea_5_02.jpg" alt="" width="800" height="360" />
+<figcaption class="figcaption"><span class="author">Fuente Propia</span> <span class="license"><span class="sep">(</span><a href="http://creativecommons.org/publicdomain/zero/1.0/deed.es" rel="license nofollow noopener" target="_blank" title="Creative Commons (CC0)">CC0</a><span class="sep">)</span></span></figcaption>
+</figure>
+<p>Definimos el objeto que se va a mover por la aplicación, que en este caso, dejamos por defecto, el gato de Scratch:</p>
+<figure class="exe-figure exe-image position-center license-CC0" style="width: 432px;"><img src="tarea_5_03.jpg" alt="" width="432" height="530" />
+<figcaption class="figcaption"><span class="author">Fuente Propia</span> <span class="license"><span class="sep">(</span><a href="http://creativecommons.org/publicdomain/zero/1.0/deed.es" rel="license nofollow noopener" target="_blank" title="Creative Commons (CC0)">CC0</a><span class="sep">)</span></span></figcaption>
+</figure>
+<p></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id55">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Código</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta55_112_2" class="block iDevice_content">
+<div class="exe-text"><p>Se define el código del gato de Scratch. Al hacer clic en la bandera verde, situamos el sprite en una posición determinado y establecemos el fondo predeterminado del mapa con la instrucción "cambiar fondo".</p>
+<figure class="exe-figure exe-image position-center license-CC0" style="width: 577px;"><img src="tarea_5_04.jpg" alt="" width="577" height="129" />
+<figcaption class="figcaption"><span class="author">Fuente Propia</span> <span class="license"><span class="sep">(</span><a href="http://creativecommons.org/publicdomain/zero/1.0/deed.es" rel="license nofollow noopener" target="_blank" title="Creative Commons (CC0)">CC0</a><span class="sep">)</span></span></figcaption>
+</figure>
+<p>Tras esto, definimos el código correspondiente al movimiento del sprite. Se incluye un condicional junto con un operador booleano OR, en los que se tiene que cumplir la condición "¿tocando el color ___? o ¿tecla ___ presionada?. Si cumple alguna de las dos condiciones debe de decir el nombre de la provincia, cambia el escenario de la provincia correspondiente, esperar un tiempo determinado y, tras esto, volver a poner el escenario inicial. El código se puede mostrar en la siguiente imagen.</p>
+<figure class="exe-figure exe-image position-center license-CC0" style="width: 451px;"><img src="tarea_5_05.jpg" alt="" width="451" height="200" />
+<figcaption class="figcaption"><span class="author">Fuente Propia</span> <span class="license"><span class="sep">(</span><a href="http://creativecommons.org/publicdomain/zero/1.0/deed.es" rel="license nofollow noopener" target="_blank" title="Creative Commons (CC0)">CC0</a><span class="sep">)</span></span></figcaption>
+</figure>
+<p>El código completo de la aplicación sería:</p>
+<figure class="exe-figure exe-image position-center license-CC0" style="width: 468px;"><img src="tarea_5_06.jpg" alt="" width="468" height="1508" />
+<figcaption class="figcaption"><span class="author">Fuente Propia</span> <span class="license"><span class="sep">(</span><a href="http://creativecommons.org/publicdomain/zero/1.0/deed.es" rel="license nofollow noopener" target="_blank" title="Creative Commons (CC0)">CC0</a><span class="sep">)</span></span></figcaption>
+</figure>
+<p>Cada provincia va asociada a un color y a una tecla. </p>
+<p>Con esta configuración, se puede utilizar este juego, para el conocimiento de la situación de cada provincia moviendo el sprite por el escenario o seleccionando una determinada tecla. </p>
+<p>Esta aplicación, en base a la selección de una tecla, se puede asociar a un mural interconectado con el ordenador a través de Makey Makey.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice" id="id56">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Ejemplo</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta56_113_2" class="block iDevice_content">
+<div class="exe-text"><p>Otra posibilidad podría ser conocer las partes del cuerpo humano. Un inicio de proyecto podría ser el siguiente:</p>
+<figure class="exe-figure exe-image position-center license-CC0" style="width: 801px;"><img src="tarea_5_07.jpg" alt="" width="801" height="365" />
+<figcaption class="figcaption"><span class="author">Fuente Propia</span> <span class="license"><span class="sep">(</span><a href="http://creativecommons.org/publicdomain/zero/1.0/deed.es" rel="license nofollow noopener" target="_blank" title="Creative Commons (CC0)">CC0</a><span class="sep">)</span></span></figcaption>
+</figure>
+<p>Se puede crear un mural con el cuerpo humano y cada parte del cuerpo humano se podría enlazar con una tecla de Makey Makey, de tal forma que al pulsarla, en la pantalla aparecería la figura del cuerpo humano con un círculo sobre la parte accionada y el nombre. Asimismo, se le podría asociar un sonido con el nombre, para que sea de mayor accesibilidad la aplicación.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="laberinto.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="proyecto_final.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_escolares_js.js"></script></body></html>
